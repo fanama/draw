@@ -1,0 +1,15 @@
+.cell {
+    @apply p-3;
+    @apply bg-slate-900;
+    @apply w-8 h-8 ;
+
+    &:hover{
+        @apply cursor-pointer;
+        @apply border border-white;
+    }
+
+}
+
+.active {
+    @apply bg-green-700;
+}

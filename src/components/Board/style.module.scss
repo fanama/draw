@@ -1,0 +1,9 @@
+.Board{
+    @apply grid gap-1 ;
+
+}
+
+.sliders{
+    @apply flex flex-col;
+    @apply max-w-xs;
+}
